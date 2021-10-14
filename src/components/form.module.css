@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  gap: 2rem;
+}
+
+.form {
+  display: grid;
+  gap: 0.5rem;
+  justify-self: center;
+  align-self: start;
+}
+
+.resultContainer {
+  display: grid;
+  justify-items: center;
+  align-self: start;
+}
+.resultContainer p {
+  text-align: center;
+}
+
+.payout {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.sad {
+  font-size: 1.5rem;
+}

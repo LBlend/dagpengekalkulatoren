@@ -1,0 +1,24 @@
+body {
+  background: #32414f;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  color: hsl(0, 0%, 93%);
+}
+a:hover {
+  color: hsl(0, 0%, 100%);
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: 1fr 1fr auto;
+  padding: 1rem;
+  gap: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 95vh; /* why not 100? because mobile browsers suck :( */
+}

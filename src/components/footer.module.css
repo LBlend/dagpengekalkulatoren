@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  align-self: end;
+  place-items: center;
+
+  /* padding-block: 1rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
